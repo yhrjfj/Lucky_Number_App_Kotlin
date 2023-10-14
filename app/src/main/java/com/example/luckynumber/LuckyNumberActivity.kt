@@ -24,7 +24,9 @@ class LuckyNumberActivity : AppCompatActivity() {
         // Random number
         var randomNumber = randomNumberGenerator()
 
+        // 1st way
         //luckyNumberText.text = randomNumber.toString()
+        // 2nd way
         luckyNumberText.setText(""+randomNumber)
 
         // Data sending functionality
