@@ -36,11 +36,11 @@
         android:id="@+id/share"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
         android:layout_marginTop="43dp"
         android:text="Share"
         android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="@+id/luckyNumberText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/luckyNumberText" />
 
 
